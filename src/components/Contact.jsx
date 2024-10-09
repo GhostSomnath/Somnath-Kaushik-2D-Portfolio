@@ -4,8 +4,11 @@ import { motion } from "framer-motion";
 const Contact = () => {
   return (
     <div className='pt-0 pb-6 border-5 border-neutral-900'>
-      <motion.h1 
-        className='my-10 text-4xl text-center'>Get In Touch</motion.h1>
+      <motion.h2
+        whileInView={{ opacity: 1, y: 0 }}
+        initial={{ opacity: 0, y: -100 }}
+        transition={{ duration: 1.2 }}
+        className="my-20 text-4xl text-center">Get In Touch</motion.h2>
       <div className='tracking-tighter text-center border-b-transparent'>        
         <motion.p 
           whileInView={{opacity:1,x:0}}

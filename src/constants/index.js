@@ -3,85 +3,103 @@ import project2 from "../assets/projects/project-2.jpg";
 import project3 from "../assets/projects/project-3.jpg";
 import project4 from "../assets/projects/project-4.jpg";
 import project5 from "../assets/projects/project-5.jpg";
+import project6 from "../assets/projects/project-6.jpg";
+import project7 from "../assets/projects/project-7.jpg";
 
-export const HERO_CONTENT = `I am a passionate full stack developer with a knack for crafting robust
- and scalable web applications. With hands-on experience through internships at Assert Infotech and 
- Fusiotech, I have honed my skills in front-end technologies like React and Vite, as well as back-end
-  technologies like Node.js, MongoDB, and Express.js. My goal is to leverage my expertise in HTML, CSS,
-   Tailwind, JavaScript, and other technologies to create innovative solutions that drive business growth 
-   and deliver exceptional user experiences. Additionally, my problem-solving skills are demonstrated by 
-   solving over 350 questions on Leetcode. I am eager to contribute
- to high-impact roles in esteemed organizations, always ready to learn and innovate.`;
+export const HERO_CONTENT = `I am a passionate full stack developer with a talent for creating robust and scalable web applications.
+Through valuable internships at Assert Infotech and Fusiotech, I have sharpened my expertise in front-end technologies like React and Vite, as well as back-end frameworks such as Node.js, MongoDB, and Express.js.
+My aim is to harness my skills in HTML, CSS, Tailwind CSS, JavaScript, and more to develop innovative solutions that drive business growth and enhance user experiences.
+With a strong problem-solving mindset demonstrated by over 400 challenges solved on Leetcode, I am eager to contribute to impactful roles in esteemed organizations, always ready to learn and push the boundaries of innovation.`;
 
-export const ABOUT_TEXT = `I am a dynamic and versatile full stack developer with a passion for transforming ideas into seamless, user-friendly web applications. My journey began with an insatiable curiosity about how things work, which has blossomed into a career where I thrive on tackling new challenges and continually expanding my skill set.
 
-With hands-on experience from impactful internships at Assert Infotech and Fusiotech, I have mastered a diverse array of technologies, including React, Vite, Node.js, Express.js, MongoDB, and more. My proficiency in HTML, CSS, Tailwind, JavaScript, and other cutting-edge tools allows me to craft robust and scalable solutions that drive business growth and enhance user experiences.
 
-I flourish in collaborative environments, where complex problems become opportunities to deliver high-quality, innovative solutions. Beyond the keyboard, I stay active, continuously explore emerging technologies, and contribute to open-source projects, embodying my commitment to lifelong learning and community engagement.
+export const ABOUT_TEXT = `I am an innovative full stack developer with a passion for crafting seamless and intuitive web applications. \n\n My journey began with an insatiable curiosity about technology, evolving into a fulfilling career where I thrive on tackling challenges and expanding my skill set. \n\n With hands-on experience from impactful internships at Assert Infotech and Fusiotech, I have mastered modern frameworks and technologies like React.js, Vite, Node.js, Express.js, and MongoDB.\n\n Proficient in HTML, CSS, Tailwind CSS, and JavaScript, I create robust solutions that drive business growth and enhance user experiences.\n\n I flourish in collaborative environments, constantly exploring emerging technologies and contributing to open-source projects, embodying my commitment to lifelong learning and community engagement.\n\n I am eager to leverage my expertise to drive innovation and excellence in high-impact roles.`;
 
-I'm eager to bring my expertise and enthusiasm to high-impact roles, driving technological excellence and innovation.`;
 
 export const EXPERIENCES = [
   {
-    year: "Aug 2023 - Present",
-    role: "Full-stack Developer Intern",
+    year: "Aug 2024 - Present",
+    role: "MERN Developer Intern",
     company: "Fusiotech",
-    description: `Creating and modifying the website.`,
-    technologies: ["Ejs", "Css", "Tailwind", "Node Js","Mongodb"],
-  }
-  ,
-  {
-    year: "May 2023 - Present",
-    role: "CODING BLOCKS CLUB GLA",
-    company: "President",
-    description: `Organized various tech events, coding competitions, workshops for the growth of the students and to make the coding culture in the campus. `,
-    technologies: ["Leadership", "Event Management", "Organizational Skills"],
+    description: `Leading the development of an innovative, fully responsive website equipped with comprehensive admin controls. Implementing real-time notification systems through email to optimize user interaction and streamline communication. Actively contributing to a seamless user experience by integrating modern design and backend functionalities.`,
+    technologies: ["MongoDB", "Express", "React Vite", "Node.js", "Tailwind"]
   },
   {
-    year: " May 2023 - August 2023 ",
-    role: "Front-end Web Developer Inter",
-    company: "ASSERT INFOTECH",
-    description: ` Developed templates for the company's internal project using HTML, CSS, JavaScript and node js. Also Learned React Js.`,
-    technologies: ["HTML", "CSS", "JS", "NODE JS", "REACT VITE"],
+    year: "May 2023 - June 2024",
+    role: "President",
+    company: "Coding Blocks Club GLA",
+    description: `Orchestrating multiple high-impact tech events, coding competitions, and workshops aimed at advancing students' technical prowess. Committed to fostering a thriving coding culture within the campus, driving engagement, and encouraging innovation among peers.`,
+    technologies: ["Leadership", "Event Management", "Organizational Skills"]
+  },
+  {
+    year: "May 2023 - August 2023",
+    role: "Front-end Web Developer Intern",
+    company: "Assert Infotech",
+    description: `Developed and refined visually appealing, user-friendly templates for internal company projects. Leveraged cutting-edge technologies including React to create scalable web solutions, while enhancing expertise in HTML, CSS, and JavaScript. Collaborated within a dynamic team environment to push forward creative ideas.`,
+    technologies: ["HTML", "CSS", "JavaScript", "Node.js", "React Vite"]
   }
 ];
 
 export const PROJECTS = [
   {
-    title: " Learning Heaven Website - In Progress",
+    title: "Fusiotech  Website",
     image: project1,
     description:
-      "An e-learning portal and e-commerce platform offering subjective notes, course enrollment, downloadable materials, tech blogs, job alerts, and learning products.",
-    technologies: ["Ejs", "MongoDB", "Tailwind", "Node Js", "JS", "Css"],
+      "Developing a fully responsive website equipped with comprehensive admin controls. Implementing real-time notification systems through email to optimize user interaction and streamline communication. Actively contributing to a seamless user experience by integrating modern design and backend functionalities.",
+    technologies: ["MongoDB", "Express", "React Vite", "Node.js", "Tailwind", "Framer Motion"],
+    link: "https://www.fusiotech.in",
   },
   {
-    title: "Health Support Website - In Progress",
+    title: "GitHub Analytic Dashboard",
     image: project2,
     description:
-      "A health support website offering Guidance, health checkup enrollment, downloadable materials, live intraction with doctors, and health products.",
-    technologies: ["Arduino", "C/C++", "Python", "ROS"],
-  },
-  {
-    title: "Coding Blocks Club Website - In Progress",
-    image: project3,
-    description:
-      " A responsive website which represents Coding Blocks club. Students can book tickets, access the resources, code in the compiler,and ask about their quarries.",
-    technologies: ["HTML", "CSS", "JS", "Tailwind", "Node JS"],
-  },
-  {
-    title: "Madan Mohan Kalawati school,Mathura Website.",
-    image: project4,
-    description:
-      "A front-end school website enhances communication and accessibility, fostering community engagement and improving user experience.",
-    technologies: ["HTML", "CSS", "JS"],
-  },
-  {
-    title: "Portfolio Web",
-    image: project5,
-    description:
-      "A platform for showcase my professional journey, with features to share my expreinces, projects and way to contact me.",
-    technologies: ["React.js", "Tailwind", "Framer Motion"],
-  },
+      "A comprehensive tool for searching GitHub accounts and analyzing repositories. Users can sort repositories by name, stars, forks, and open issues. The dashboard provides detailed insights on contributions, profiles, repo details, commits, and open issues, offering a robust view of repository activity and developer profiles.",
+    technologies: ["React.js", "Tailwind", "Node.js", "Express.js", "MongoDB", "GitHub API"],
+    link: "https://github-analytic-dashboard.onrender.com/",
+},
+
+{
+  title: "Learning Heaven Website",
+  image: project3,
+  description:
+    "A feature-rich e-learning portal and e-commerce platform that provides subjective notes, course enrollment, downloadable study materials, tech blogs, job alerts, and learning products. The platform also integrates a code compiler for practical learning, enhancing the user experience.",
+  technologies: ["EJS", "MongoDB", "Tailwind", "Node.js", "JavaScript", "CSS"],
+  link: "https://learning-heaven.onrender.com/Compiler/",
+},
+
+{
+  title: "Health Support Website",
+  image: project4,
+  description:
+    "A comprehensive health support platform offering personalized health guidance, health checkup enrollment, downloadable resources, live interactions with doctors, and a range of health-related products.",
+  technologies: ["EJS", "Tailwind", "Node.js", "MongoDB"],
+  link: "https://health-support.onrender.com/",
+},
+
+{
+  title: "Coding Blocks Club Website",
+  image: project5,
+  description:
+    "A responsive website representing the Coding Blocks club. Students can book event tickets, access learning resources, code in the online compiler, and submit their queries.",
+  technologies: ["HTML", "CSS", "JavaScript", "Tailwind", "Node.js"],
+  link: "",
+},
+
+{
+  title: "Madan Mohan Kalawati School, Mathura Website - (In Progress)",
+  image: project6,
+  description: "A front-end school website that enhances communication and accessibility, fostering community engagement and improving user experience.",
+  technologies: ["HTML", "CSS", "JS"],
+  link: ""
+},
+{
+  title: "Portfolio Web",
+  image: project7,
+  description: "A platform to showcase my professional journey, featuring sections to share my experiences, projects, and ways to contact me.",
+  technologies: ["React.js", "Tailwind", "Framer Motion"],
+  link: "https://somnath-kaushik-2d-portfolio-r2f4.onrender.com/"
+}
+
 ];
 
 export const CONTACT = {

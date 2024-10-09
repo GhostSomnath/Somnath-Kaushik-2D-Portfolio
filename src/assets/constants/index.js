@@ -4,14 +4,11 @@ import project3 from "../projects/project-3.jpg";
 import project4 from "../projects/project-4.jpg";
 import project5 from "../projects/project-5.jpg";
 
-export const HERO_CONTENT = `I am a passionate full stack developer with a knack for crafting robust
- and scalable web applications. With hands-on experience through internships at Assert Infotech and 
- Fusiotech, I have honed my skills in front-end technologies like React and Vite, as well as back-end
-  technologies like Node.js, MongoDB, and Express.js. My goal is to leverage my expertise in HTML, CSS,
-   Tailwind, JavaScript, and other technologies to create innovative solutions that drive business growth 
-   and deliver exceptional user experiences. Additionally, my problem-solving skills are demonstrated by 
-   solving over 350 questions on Leetcode. I am eager to contribute
- to high-impact roles in esteemed organizations, always ready to learn and innovate.`;
+export const HERO_CONTENT = `I am a passionate full stack developer with a talent for creating robust and scalable web applications.
+Through valuable internships at Assert Infotech and Fusiotech, I have sharpened my expertise in front-end technologies like React and Vite, as well as back-end frameworks such as Node.js, MongoDB, and Express.js.
+My aim is to harness my skills in HTML, CSS, Tailwind CSS, JavaScript, and more to develop innovative solutions that drive business growth and enhance user experiences.
+With a strong problem-solving mindset demonstrated by over 400 challenges solved on Leetcode, I am eager to contribute to impactful roles in esteemed organizations, always ready to learn and push the boundaries of innovation.`;
+
 
 export const ABOUT_TEXT = `I am a dynamic and versatile full stack developer with a passion for transforming ideas into seamless, user-friendly web applications. My journey began with an insatiable curiosity about how things work, which has blossomed into a career where I thrive on tackling new challenges and continually expanding my skill set.
 
@@ -53,6 +50,7 @@ export const PROJECTS = [
     description:
       "An e-learning portal and e-commerce platform offering subjective notes, course enrollment, downloadable materials, tech blogs, job alerts, and learning products.",
     technologies: ["Ejs", "MongoDB", "Tailwind", "Node Js", "JS", "Css"],
+    link: "www.google.com",
   },
   {
     title: "Health Support Website - In Progress",
@@ -60,6 +58,7 @@ export const PROJECTS = [
     description:
       "A health support website offering Guidance, health checkup enrollment, downloadable materials, live intraction with doctors, and health products.",
     technologies: ["Arduino", "C/C++", "Python", "ROS"],
+    link: "",
   },
   {
     title: "Coding Blocks Club Website - In Progress",
@@ -67,6 +66,7 @@ export const PROJECTS = [
     description:
       " A responsive website which represents Coding Blocks club. Students can book tickets, access the resources, code in the compiler,and ask about their quarries.",
     technologies: ["HTML", "CSS", "JS", "Tailwind", "Node JS"],
+    link: "",
   },
   {
     title: "Madan Mohan Kalawati school,Mathura Website.",
@@ -74,6 +74,7 @@ export const PROJECTS = [
     description:
       "A front-end school website enhances communication and accessibility, fostering community engagement and improving user experience.",
     technologies: ["HTML", "CSS", "JS"],
+    link: "",
   },
   {
     title: "Portfolio Web",
@@ -81,6 +82,7 @@ export const PROJECTS = [
     description:
       "A platform for showcase my professional journey, with features to share my expreinces, projects and way to contact me.",
     technologies: ["React.js", "Tailwind", "Framer Motion"],
+    // link: "",
   },
 ];
 

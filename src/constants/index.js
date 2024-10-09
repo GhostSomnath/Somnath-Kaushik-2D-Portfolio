@@ -5,6 +5,7 @@ import project4 from "../assets/projects/project-4.jpg";
 import project5 from "../assets/projects/project-5.jpg";
 import project6 from "../assets/projects/project-6.jpg";
 import project7 from "../assets/projects/project-7.jpg";
+import project8 from "../assets/projects/project-8.jpg";
 
 export const HERO_CONTENT = `I am a passionate full stack developer with a talent for creating robust and scalable web applications.
 Through valuable internships at Assert Infotech and Fusiotech, I have sharpened my expertise in front-end technologies like React and Vite, as well as back-end frameworks such as Node.js, MongoDB, and Express.js.
@@ -64,7 +65,7 @@ export const PROJECTS = [
   description:
     "A feature-rich e-learning portal and e-commerce platform that provides subjective notes, course enrollment, downloadable study materials, tech blogs, job alerts, and learning products. The platform also integrates a code compiler for practical learning, enhancing the user experience.",
   technologies: ["EJS", "MongoDB", "Tailwind", "Node.js", "JavaScript", "CSS"],
-  link: "https://learning-heaven.onrender.com/Compiler/",
+  link: "https://learning-heaven.onrender.com/",
 },
 
 {
@@ -93,11 +94,18 @@ export const PROJECTS = [
   link: ""
 },
 {
-  title: "Portfolio Web",
+  title: "Portfolio Website",
   image: project7,
   description: "A platform to showcase my professional journey, featuring sections to share my experiences, projects, and ways to contact me.",
   technologies: ["React.js", "Tailwind", "Framer Motion"],
   link: "https://somnath-kaushik-2d-portfolio-r2f4.onrender.com/"
+},
+{
+  title: "3D Portfolio Website (Copied from github)",
+  image: project8,
+  description: "A 3D platform to showcase my professional journey, featuring sections to share my experiences, projects, and ways to contact me.(I have picked its code from github)",
+  technologies: ["React.js", "Three.js"],
+  link: "https://somnath-kaushik-portfolio-1.onrender.com/3d-portfolio/"
 }
 
 ];

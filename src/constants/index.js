@@ -82,7 +82,7 @@ export const PROJECTS = [
   description:
     "A responsive website representing the Coding Blocks club. Students can book event tickets, access learning resources, code in the online compiler, and submit their queries.",
   technologies: ["HTML", "CSS", "JavaScript", "Tailwind", "Node.js"],
-  link: "",
+  link: "https://coding-blocks-glau-web-project.onrender.com/",
 },
 
 {
